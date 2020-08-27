@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/acidjazz/nuxt-tv-toast#readme",
   "dependencies": {
-    "tv-toast": "^1.1.0"
+    "tv-toast": "^1.2.0"
   }
 }
