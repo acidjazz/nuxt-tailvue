@@ -1,5 +1,4 @@
 const { resolve } = require('path')
-
 function toastModule (moduleOptions) {
     const { nuxt } = this
 
@@ -11,6 +10,5 @@ function toastModule (moduleOptions) {
         moduleOptions,
     })
 }
-
 module.exports = toastModule
 module.exports.meta = require('./package.json')
