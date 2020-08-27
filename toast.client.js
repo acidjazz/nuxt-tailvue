@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import { TvToast, spawn } from './index.js'
+import { TvToast, spawn, removeElement } from 'tv-toast'
 
 export default (ctx, inject) => {
   const ToastProgrammatic = {
