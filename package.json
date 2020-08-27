@@ -1,0 +1,25 @@
+{
+  "name": "nuxt-tv-toast",
+  "version": "1.0.0",
+  "description": "nuxt module for tv-toast",
+  "main": "module.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/acidjazz/nuxt-tv-toast.git"
+  },
+  "keywords": [
+    "nuxtjs",
+    "tailwindcss",
+    "vuejs",
+    "vue"
+  ],
+  "author": "kevin olson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acidjazz/nuxt-tv-toast/issues"
+  },
+  "homepage": "https://github.com/acidjazz/nuxt-tv-toast#readme"
+}
