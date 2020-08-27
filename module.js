@@ -6,6 +6,8 @@ function toastModule (moduleOptions) {
     this.addPlugin({
         src: resolve(__dirname, 'toast.client.js'),
         fileName: 'toast.client.js',
+        client: true,
+        mode: 'client',
         moduleOptions,
     })
 }
