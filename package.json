@@ -1,6 +1,6 @@
 {
   "name": "nuxt-tv-toast",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "nuxt module for tv-toast",
   "main": "module.js",
   "scripts": {
