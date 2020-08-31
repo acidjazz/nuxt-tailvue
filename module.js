@@ -6,7 +6,6 @@ function toastModule (moduleOptions) {
         this.addPlugin({
             src: resolve(__dirname, 'toast.client.js'),
             fileName: 'toast.client.js',
-            client: true,
             mode: 'client',
             moduleOptions,
         })
@@ -14,9 +13,9 @@ function toastModule (moduleOptions) {
         this.addPlugin({
             src: resolve(__dirname, 'button.js'),
             fileName: 'button.js',
+            mode: 'all',
             moduleOptions,
         })
-    console.log(moduleOptions)
 }
 module.exports = toastModule
 module.exports.meta = require('./package.json')
