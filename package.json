@@ -1,14 +1,14 @@
 {
-  "name": "nuxt-tv-toast",
-  "version": "1.0.5",
-  "description": "nuxt module for tv-toast",
+  "name": "nuxt-tailvue",
+  "version": "1.0.0",
+  "description": "nuxt module for tailvue components",
   "main": "module.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/acidjazz/nuxt-tv-toast.git"
+    "url": "git+ssh://git@github.com/acidjazz/nuxt-tailvue.git"
   },
   "keywords": [
     "nuxtjs",
@@ -19,9 +19,9 @@
   "author": "kevin olson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/acidjazz/nuxt-tv-toast/issues"
+    "url": "https://github.com/acidjazz/nuxt-tailvue/issues"
   },
-  "homepage": "https://github.com/acidjazz/nuxt-tv-toast#readme",
+  "homepage": "https://github.com/acidjazz/nuxt-tailvue#readme",
   "dependencies": {
     "tv-toast": "latest"
   }
