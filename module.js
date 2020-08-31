@@ -16,6 +16,7 @@ function toastModule (moduleOptions) {
             fileName: 'button.js',
             moduleOptions,
         })
+    console.log(moduleOptions)
 }
 module.exports = toastModule
 module.exports.meta = require('./package.json')

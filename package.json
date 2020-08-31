@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/acidjazz/nuxt-tailvue#readme",
   "dependencies": {
-    "tv-toast": "latest"
+    "tv-toast": "latest",
+    "tv-button": "latest"
   }
 }
