@@ -1,7 +1,7 @@
 ## nuxt-tailvue
 > Nuxt.js module for for tailvue components
 
-## tv-toast
+### tv-toast
 <p align="center">
   <img src="media/toast.png" width="600" />
 </p>
