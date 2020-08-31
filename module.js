@@ -10,6 +10,12 @@ function toastModule (moduleOptions) {
             mode: 'client',
             moduleOptions,
         })
+    if (moduleOptions.button || moduleOptions.all)
+        this.addPlugin({
+            src: resolve(__dirname, 'button.js'),
+            fileName: 'button.js',
+            moduleOptions,
+        })
 }
 module.exports = toastModule
 module.exports.meta = require('./package.json')
