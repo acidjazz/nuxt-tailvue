@@ -16,6 +16,7 @@ function toastModule (moduleOptions) {
             mode: 'all',
             moduleOptions,
         })
+
 }
 module.exports = toastModule
 module.exports.meta = require('./package.json')

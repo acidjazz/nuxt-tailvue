@@ -1,3 +1,4 @@
 import Vue from 'vue'
 import { PushButton } from 'tv-button'
-Vue.use(PushButton)
+import 'tv-button/dist/tv-button.css'
+Vue.component('PushButton', PushButton)
