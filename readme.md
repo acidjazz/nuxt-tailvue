@@ -14,3 +14,10 @@
 </p>
 
 - Please refer to the [tv-button readme](https://github.com/acidjazz/tv-button)
+
+### tv-icon
+<p align="center">
+  <img src="media/icons.png" width="600" />
+</p>
+
+- Please refer to the [tv-icon readme](https://github.com/acidjazz/tv-icon)
