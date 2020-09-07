@@ -7,6 +7,14 @@ function toastModule (moduleOptions) {
         mode: 'all',
         moduleOptions,
     })
+
+    if (moduleOptions.button || moduleOptions.all)
+        this.addPlugin({
+            src: resolve(__dirname, 'button.js'),
+            fileName: 'button.js',
+            mode: 'all',
+            moduleOptions,
+        })
     if (moduleOptions.toast || moduleOptions.all)
         this.addPlugin({
             src: resolve(__dirname, 'toast.client.js'),
@@ -14,11 +22,11 @@ function toastModule (moduleOptions) {
             mode: 'client',
             moduleOptions,
         })
-    if (moduleOptions.button || moduleOptions.all)
+    if (moduleOptions.modal || moduleOptions.all)
         this.addPlugin({
-            src: resolve(__dirname, 'button.js'),
-            fileName: 'button.js',
-            mode: 'all',
+            src: resolve(__dirname, 'modal.client.js'),
+            fileName: 'modal.client.js',
+            mode: 'client',
             moduleOptions,
         })
 }
