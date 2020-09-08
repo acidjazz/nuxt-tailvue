@@ -13,4 +13,5 @@ export default (ctx, inject) => {
     },
   }
   inject('modal', ModalProgrammatic)
+  Vue.component('ModalBase', ModalBase)
 }
