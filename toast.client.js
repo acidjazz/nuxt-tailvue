@@ -14,6 +14,18 @@ export default (ctx, inject) => {
       if (typeof props === 'string') props = { message: props }
       return spawn('toasts', props, TvToast, Vue)
     },
+    success (props) {
+      return spawn('toasts', {type: 'success', message: props}, TvToast, Vue)
+    },
+    info (props) {
+      return spawn('toasts', {type: 'info', message: props}, TvToast, Vue)
+    },
+    danger (props) {
+      return spawn('toasts', {type: 'danger', message: props}, TvToast, Vue)
+    },
+    warning (props) {
+      return spawn('toasts', {type: 'warning', message: props}, TvToast, Vue)
+    },
   }
   inject('toast', ToastProgrammatic)
 }
