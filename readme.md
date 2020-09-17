@@ -1,5 +1,34 @@
 ## nuxt-tailvue
-> Nuxt.js module for for tailvue components
+### Nuxt.js module for for tailvue components
+> This requires [Nuxt.js](https://nuxtjs.org) with the [Tailwind CSS](https://tailwindcss.nuxtjs.org) module
+
+
+## Quick Setup
+ 1. Add the `nuxt-tailvue` dependency to your Nuxt.js project
+ ```bash
+ npm install nuxt-tailvue
+ # OR
+ yarn add nuxt-tailvue
+ ```
+ 
+ 2. Add `nuxt-tailvue` to the `modules` section of `nuxt.config.js` (this enables all tailvue components)
+ ```js
+ {
+   modules: [
+     ['nuxt-tailvue', {all: true}],
+   ]
+ }
+ ```
+ 
+ 3. If you're using [Purge](https://tailwindcss.com/docs/controlling-file-size), add this line to the content section of `tailwind.config.js`
+ 
+ ```js
+ module.exports = {
+     content: [
+       'node_modules/tv-*/**/*.vue',
+     ],
+   }
+````
 
 ### tv-toast
 <p align="center">
