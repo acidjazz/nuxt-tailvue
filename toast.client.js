@@ -12,8 +12,6 @@ export default (ctx, inject) => {
     'px-4', 'py-6', 'pointer-events-none', 'sm:p-6', 'sm:items-end', 'sm:justify-end'
   )
 
-  console.log(options)
-
   if (options.defaults.containerClasses) {
     toasts.classList.add(options.defaults.containerClasses)
   }
