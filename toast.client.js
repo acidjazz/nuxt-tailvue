@@ -11,8 +11,11 @@ export default (ctx, inject) => {
     'z-40', 'fixed', 'inset-0', 'flex', 'flex-col-reverse', 'items-end', 'justify-center',
     'px-4', 'py-6', 'pointer-events-none', 'sm:p-6', 'sm:items-end', 'sm:justify-end'
   )
-  if (options.defaults.rootClasses) {
-    toasts.classList.add(options.defaults.rootClasses)
+
+  console.log(options)
+
+  if (options.defaults.containerClasses) {
+    toasts.classList.add(options.defaults.containerClasses)
   }
   toasts.setAttribute('id', 'toasts')
   document.body.appendChild(toasts)
