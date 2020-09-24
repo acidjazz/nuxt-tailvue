@@ -15,13 +15,21 @@ function toastModule (moduleOptions) {
             mode: 'all',
             moduleOptions,
         })
-    if (moduleOptions.toast || moduleOptions.all)
-        this.addPlugin({
-            src: resolve(__dirname, 'toast.client.js'),
-            fileName: 'toast.client.js',
-            mode: 'client',
-            moduleOptions,
-        })
+
+    if (moduleOptions.toast || moduleOptions.all) {
+      this.addTemplate({
+        fileName: 'options.js',
+        src: resolve(__dirname, 'templates', 'options.js'),
+        options: moduleOptions.toast
+      })
+      this.addPlugin({
+        src: resolve(__dirname, 'toast.client.js'),
+        fileName: 'toast.client.js',
+        mode: 'client',
+        moduleOptions
+      })
+    }
+
     if (moduleOptions.modal || moduleOptions.all)
         this.addPlugin({
             src: resolve(__dirname, 'modal.client.js'),
