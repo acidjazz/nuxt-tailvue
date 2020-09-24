@@ -26,6 +26,6 @@
     "tv-button": "^1.0.7",
     "tv-icon": "^1.0.6",
     "tv-modal": "^1.0.3",
-    "tv-toast": "latest"
+    "tv-toast": "^1.2.4"
   }
 }
