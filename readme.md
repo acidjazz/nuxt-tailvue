@@ -5,7 +5,6 @@
 
 [![](https://img.shields.io/npm/v/nuxt-tailvue.svg?logo=npm&style=flat-square)](https://www.npmjs.com/package/nuxt-tailvue)
 [![](https://img.shields.io/badge/nuxt.js-module-04C690.svg?style=flat-square)](https://nuxtjs.org)
-![Test Javascript](https://github.com/acidjazz/nuxt-tailvue/workflows/Test%20Javascript/badge.svg)
 [![](https://img.shields.io/npm/dt/nuxt-tailvue.svg?style=flat-square)](https://www.npmjs.com/package/nuxt-tailvue)
 [![](https://img.shields.io/github/license/acidjazz/nuxt-tailvue?style=flat-square)](https://www.npmjs.com/package-nuxt-tailvue)
 
