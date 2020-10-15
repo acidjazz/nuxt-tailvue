@@ -8,6 +8,14 @@ function toastModule (moduleOptions) {
         moduleOptions,
     })
 
+    this.addPlugin({
+        src: resolve(__dirname, 'helpers.js'),
+        fileName: 'helper.js',
+        mode: 'all',
+        moduleOptions,
+    })
+
+
     if (moduleOptions.button || moduleOptions.all)
         this.addPlugin({
             src: resolve(__dirname, 'button.js'),
