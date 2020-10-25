@@ -30,7 +30,7 @@
  ```js
  module.exports = {
      content: [
-       'node_modules/tv-*/**/*.vue',
+       'node_modules/tv-*/dist/tv-*.umd.min.js',
      ],
    }
 ````
