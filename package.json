@@ -2,13 +2,13 @@
   "name": "nuxt-tailvue",
   "version": "1.0.37",
   "description": "nuxt module for tailvue components",
-  "main": "dist/tailvue.min.js",
+  "main": "dist/nuxt-tailvue.min.js",
   "files": [
-    "dist/tailvue.umd.min.js"
+    "dist/nuxt-tailvue.umd.min.js"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "vue-cli-service build --target lib --name tailvue module.js"
+    "build": "vue-cli-service build --target lib --name nuxt-tailvue module.js"
   },
   "repository": {
     "type": "git",

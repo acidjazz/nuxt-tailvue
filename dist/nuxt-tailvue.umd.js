@@ -4,9 +4,9 @@
 	else if(typeof define === 'function' && define.amd)
 		define([], factory);
 	else if(typeof exports === 'object')
-		exports["tailvue"] = factory();
+		exports["nuxt-tailvue"] = factory();
 	else
-		root["tailvue"] = factory();
+		root["nuxt-tailvue"] = factory();
 })((typeof self !== 'undefined' ? self : this), function() {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -313,7 +313,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 /***/ "9224":
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"name\":\"nuxt-tailvue\",\"version\":\"1.0.36\",\"description\":\"nuxt module for tailvue components\",\"main\":\"dist/tailvue.min.js\",\"files\":[\"dist/tailvue.umd.min.js\"],\"scripts\":{\"test\":\"echo \\\"Error: no test specified\\\" && exit 1\",\"build\":\"vue-cli-service build --target lib --name tailvue module.js\"},\"repository\":{\"type\":\"git\",\"url\":\"git+ssh://git@github.com/acidjazz/nuxt-tailvue.git\"},\"keywords\":[\"nuxtjs\",\"tailwindcss\",\"vuejs\",\"vue\"],\"author\":\"kevin olson\",\"license\":\"MIT\",\"bugs\":{\"url\":\"https://github.com/acidjazz/nuxt-tailvue/issues\"},\"homepage\":\"https://github.com/acidjazz/nuxt-tailvue#readme\",\"dependencies\":{\"tv-button\":\"^1.0.7\",\"tv-icon\":\"^1.0.6\",\"tv-modal\":\"^1.0.3\",\"tv-toast\":\"^1.2.4\"},\"devDependencies\":{\"@vue/cli-service\":\"^4.5.8\"}}");
+module.exports = JSON.parse("{\"name\":\"nuxt-tailvue\",\"version\":\"1.0.37\",\"description\":\"nuxt module for tailvue components\",\"main\":\"dist/nuxt-tailvue.min.js\",\"files\":[\"dist/nuxt-tailvue.umd.min.js\"],\"scripts\":{\"test\":\"echo \\\"Error: no test specified\\\" && exit 1\",\"build\":\"vue-cli-service build --target lib --name nuxt-tailvue module.js\"},\"repository\":{\"type\":\"git\",\"url\":\"git+ssh://git@github.com/acidjazz/nuxt-tailvue.git\"},\"keywords\":[\"nuxtjs\",\"tailwindcss\",\"vuejs\",\"vue\"],\"author\":\"kevin olson\",\"license\":\"MIT\",\"bugs\":{\"url\":\"https://github.com/acidjazz/nuxt-tailvue/issues\"},\"homepage\":\"https://github.com/acidjazz/nuxt-tailvue#readme\",\"dependencies\":{\"tv-button\":\"^1.0.7\",\"tv-icon\":\"^1.0.6\",\"tv-modal\":\"^1.0.3\",\"tv-toast\":\"^1.2.4\"},\"devDependencies\":{\"@vue/cli-service\":\"^4.5.8\"}}");
 
 /***/ }),
 
@@ -644,4 +644,4 @@ __webpack_require__.r(__webpack_exports__);
 
 /******/ });
 });
-//# sourceMappingURL=tailvue.umd.js.map
+//# sourceMappingURL=nuxt-tailvue.umd.js.map
