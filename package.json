@@ -2,13 +2,9 @@
   "name": "nuxt-tailvue",
   "version": "1.0.38",
   "description": "nuxt module for tailvue components",
-  "main": "dist/nuxt-tailvue.min.js",
-  "files": [
-    "dist/nuxt-tailvue.umd.min.js"
-  ],
+  "main": "module.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "vue-cli-service build --target lib --name nuxt-tailvue module.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -31,8 +27,5 @@
     "tv-icon": "^1.0.6",
     "tv-modal": "^1.0.3",
     "tv-toast": "^1.2.4"
-  },
-  "devDependencies": {
-    "@vue/cli-service": "^4.5.8"
   }
 }

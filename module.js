@@ -15,7 +15,6 @@ function toastModule (moduleOptions) {
         moduleOptions,
     })
 
-
     if (moduleOptions.button || moduleOptions.all)
         this.addPlugin({
             src: resolve(__dirname, 'button.js'),
