@@ -8,7 +8,7 @@ export default (ctx, inject) => {
   const toasts = document.createElement('div')
   containerClasses.forEach(c => toasts.classList.add(c))
   if (options.defaults && options.defaults.containerClasses) {
-    toasts.classList.add(options.defaults.containerClasses)
+    options.defaults.containerClasses.forEach(c => toasts.classList.add(c))
   }
   toasts.setAttribute('id', 'toasts')
   document.body.appendChild(toasts)
