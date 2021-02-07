@@ -1,6 +1,6 @@
 {
   "name": "nuxt-tailvue",
-  "version": "1.0.62",
+  "version": "1.0.63",
   "description": "nuxt module for tailvue components",
   "main": "module.js",
   "scripts": {
