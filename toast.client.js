@@ -30,6 +30,9 @@ export default (ctx, inject) => {
     warning (props) {
       return spawn('toasts', {type: 'warning', message: props}, TvToast, Vue, options)
     },
+    denied (props) {
+      return spawn('toasts', {type: 'denied', message: props}, TvToast, Vue, options)
+    },
   }
   inject('toast', ToastProgrammatic)
 }
