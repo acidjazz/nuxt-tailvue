@@ -1,16 +1,17 @@
-import NuxtToastInstance from './toast'
+import ToastInterface from './toast'
 
-declare module 'vue/types/vue' {
-    interface Vue {
-        $toast: NuxtToastInstance
-    }
-}
 
 declare module '@nuxt/types' {
     interface NuxtAppOptions {
-        $toast: NuxtToastInstance
+        $toast: ToastInterface
     }
     interface Context {
-        $toast: NuxtToastInstance
+        $toast: ToastInterface
+    }
+}
+
+declare module 'vue/types/vue' {
+    interface Vue {
+        $toast: ToastInterface
     }
 }

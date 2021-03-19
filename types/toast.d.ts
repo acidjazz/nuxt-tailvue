@@ -1,4 +1,4 @@
-interface NuxtToastInstance {
+declare interface ToastInterface {
     /**
      * Show a general toast message
      * @param props
@@ -36,5 +36,4 @@ interface NuxtToastInstance {
     denied (message: string): void
 }
 
-
-export default NuxtToastInstance
+export default ToastInterface
