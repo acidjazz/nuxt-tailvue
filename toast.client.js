@@ -18,20 +18,20 @@ export default (ctx, inject) => {
       if (typeof props === 'string') props = { message: props }
       return spawn('toasts', props, TvToast, Vue, options)
     },
-    success (props) {
-      return spawn('toasts', {type: 'success', message: props}, TvToast, Vue, options)
+    success (message) {
+      return spawn('toasts', {type: 'success', message}, TvToast, Vue, options)
     },
-    info (props) {
-      return spawn('toasts', {type: 'info', message: props}, TvToast, Vue, options)
+    info (message) {
+      return spawn('toasts', {type: 'info', message}, TvToast, Vue, options)
     },
-    danger (props) {
-      return spawn('toasts', {type: 'danger', message: props}, TvToast, Vue, options)
+    danger (message) {
+      return spawn('toasts', {type: 'danger', message}, TvToast, Vue, options)
     },
-    warning (props) {
-      return spawn('toasts', {type: 'warning', message: props}, TvToast, Vue, options)
+    warning (message) {
+      return spawn('toasts', {type: 'warning', message}, TvToast, Vue, options)
     },
-    denied (props) {
-      return spawn('toasts', {type: 'denied', message: props}, TvToast, Vue, options)
+    denied (message) {
+      return spawn('toasts', {type: 'denied', message}, TvToast, Vue, options)
     },
   }
   inject('toast', ToastProgrammatic)
