@@ -35,6 +35,16 @@
    }
 ````
 
+## TypeScript
+Add the types to your "types" array in `tsconfig.json` after the `@nuxt/types` (Nuxt 2.9.0+)
+
+```json
+    "types": [
+      "@nuxt/types",
+      "nuxt-tailvue",
+    ]
+```
+
 ### tv-toast
 <p align="center">
   <img src="media/toast.png" width="600" />
