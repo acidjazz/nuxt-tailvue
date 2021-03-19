@@ -40,10 +40,7 @@ declare module 'nuxt-tailvue/types' {
     interface Context {
         $toast: NuxtToastInstance
     }
-}
-
-declare module 'vue/types/vue' {
-    interface Vue {
-        $toast: NuxtToastInstance
+    interface NuxtAppOptions {
+        $axios: NuxtToastInstance
     }
 }
