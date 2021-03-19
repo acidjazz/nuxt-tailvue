@@ -41,6 +41,6 @@ declare module 'nuxt-tailvue/types' {
         $toast: NuxtToastInstance
     }
     interface NuxtAppOptions {
-        $axios: NuxtToastInstance
+        $toast: NuxtToastInstance
     }
 }
