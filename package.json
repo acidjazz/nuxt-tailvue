@@ -5,6 +5,7 @@
   "main": "module.js",
   "types": "types/index.d.ts",
   "files": [
+    "templates/*",
     "button.js",
     "helpers.js",
     "icon.js",
