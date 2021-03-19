@@ -4,6 +4,15 @@
   "description": "nuxt module for tailvue components",
   "main": "module.js",
   "types": "types/index.d.ts",
+  "files": [
+    "button.js",
+    "helpers.js",
+    "icon.js",
+    "modal.client.js",
+    "module.js",
+    "toast.client.js",
+    "types/*.d.ts"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
