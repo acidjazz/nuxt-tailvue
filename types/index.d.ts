@@ -36,7 +36,7 @@ interface NuxtToastInstance {
     denied (message: string): void
 }
 
-declare module 'nuxt-tailvue/types' {
+declare module 'nuxt-tailvue' {
     interface Context {
         $toast: NuxtToastInstance
     }
