@@ -36,14 +36,17 @@ interface NuxtToastInstance {
     denied (message: string): void
 }
 
-declare module '@nuxt/types' {
-    interface Context {
+declare module 'vue/types/vue' {
+    interface Vue {
         $toast: NuxtToastInstance
     }
 }
 
-declare module 'vue/types/vue' {
-    interface Vue {
+declare module '@nuxt/types' {
+    interface NuxtAppOptions {
+        $toast: NuxtToastInstance
+    }
+    interface Context {
         $toast: NuxtToastInstance
     }
 }
