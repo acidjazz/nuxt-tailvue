@@ -23,9 +23,9 @@
   },
   "homepage": "https://github.com/acidjazz/nuxt-tailvue#readme",
   "dependencies": {
-    "tv-button": "^1.0.17",
-    "tv-icon": "^1.0.12",
-    "tv-modal": "^1.0.9",
-    "tv-toast": "^1.2.11"
+    "tv-button": "latest",
+    "tv-icon": "latest",
+    "tv-modal": "latest",
+    "tv-toast": "latest"
   }
 }
