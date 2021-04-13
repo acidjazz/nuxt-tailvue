@@ -12,8 +12,7 @@ interface ModalInterfaceProps {
     /**
      * Different types show different icons and colors
      */
-    type: string
-    // type: 'success' | 'info' | 'danger' | 'warning'
+    type: 'success' | 'info' | 'danger' | 'warning'
     /**
      * Modal title
      */
@@ -32,8 +31,7 @@ interface ModalButton {
      * Button theme
      * @link https://github.com/acidjazz/tv-button
      */
-    theme: string
-    // theme: 'white' | 'indigo' | 'indigo-light' | 'indigo-dark' | 'red' | 'green'
+    theme: 'white' | 'indigo' | 'indigo-light' | 'indigo-dark' | 'red' | 'green'
     action: Function,
 }
 
