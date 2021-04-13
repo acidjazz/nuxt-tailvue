@@ -3,23 +3,27 @@ declare interface ModalInterface {
      * Show a modal
      * @link https://github.com/acidjazz/tv-modal
      *
-     * @param props
+     * @param properties
      */
-    show(props: { props: ModalInterfaceProps }): void
+    show(properties: ModalInterfaceProps): void
 }
 
-declare interface ModalInterfaceProps {
+interface ModalInterfaceProps {
     /**
      * Different types show different icons and colors
      */
-    type: 'success' | 'info' | 'danger' | 'warning'
+    type: string
+    // type: 'success' | 'info' | 'danger' | 'warning'
+    /**
+     * Modal title
+     */
     title: string
     body: string
     primary: ModalButton
     secondary: ModalButton
 }
 
-declare interface ModalButton {
+interface ModalButton {
     /**
      * Button text
      */
@@ -28,7 +32,8 @@ declare interface ModalButton {
      * Button theme
      * @link https://github.com/acidjazz/tv-button
      */
-    theme: 'white' | 'indigo' | 'indigo-light' | 'indigo-dark' | 'red' | 'green'
+    theme: string
+    // theme: 'white' | 'indigo' | 'indigo-light' | 'indigo-dark' | 'red' | 'green'
     action: Function,
 }
 
