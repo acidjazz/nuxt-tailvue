@@ -5,7 +5,7 @@ declare interface ModalInterface {
      *
      * @param props
      */
-    show(props: ModalInterfaceProps): void
+    show({ props }: { props: ModalInterfaceProps }): void
 }
 
 declare interface ModalInterfaceProps {
