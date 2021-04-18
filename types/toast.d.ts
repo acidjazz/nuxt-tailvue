@@ -18,19 +18,19 @@ declare interface ToastInterface {
     info (message: string): void
 
     /**
-     * Show a danger-related toast (red)
+     * Show a danger-related toast (red) - timeout of 20s
      * @param message
      */
     danger (message: string): void
 
     /**
-     * Show a warning-related toast (yellow)
+     * Show a warning-related toast (yellow) - timeout of 10s
      * @param message
      */
     warning (message: string): void
 
     /**
-     * Show a denial-related toast (red)
+     * Show a denial-related toast (red) - timeout of 10s
      * @param message
      */
     denied (message: string): void

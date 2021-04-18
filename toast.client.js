@@ -25,13 +25,13 @@ export default (ctx, inject) => {
       return spawn('toasts', {type: 'info', message}, TvToast, Vue, options)
     },
     danger (message) {
-      return spawn('toasts', {type: 'danger', message}, TvToast, Vue, options)
+      return spawn('toasts', {type: 'danger', message, timeout: 20}, TvToast, Vue, options)
     },
     warning (message) {
-      return spawn('toasts', {type: 'warning', message}, TvToast, Vue, options)
+      return spawn('toasts', {type: 'warning', message, timeout: 10}, TvToast, Vue, options)
     },
     denied (message) {
-      return spawn('toasts', {type: 'denied', message}, TvToast, Vue, options)
+      return spawn('toasts', {type: 'denied', message, timeout: 10}, TvToast, Vue, options)
     },
   }
   inject('toast', ToastProgrammatic)
