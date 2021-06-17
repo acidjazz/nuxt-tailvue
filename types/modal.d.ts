@@ -31,7 +31,7 @@ interface ModalButton {
      * Button theme
      * @link https://github.com/acidjazz/tv-button
      */
-    theme: 'white' | 'indigo' | 'indigo-light' | 'indigo-dark' | 'red' | 'green' | 'yellow' | 'blue' | 'pink' | 'purple'
+    theme: string,
     action: Function,
 }
 
